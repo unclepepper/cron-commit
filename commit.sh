@@ -5,4 +5,4 @@ sleep 5
 git add .
 git commit -m "feat: $current_time"
 sleep 5
-git push origin master
+./push.sh
